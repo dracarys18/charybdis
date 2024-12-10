@@ -224,7 +224,7 @@ dependencies = [
  "colored",
  "futures",
  "num-bigint 0.4.6",
- "scylla 0.15.0 (git+https://github.com/dracarys18/scylla-rust-driver.git)",
+ "scylla 0.15.0 (git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1)",
  "serde",
  "serde_json",
  "uuid",
@@ -256,7 +256,7 @@ dependencies = [
  "colored",
  "openssl",
  "regex",
- "scylla 0.15.0 (git+https://github.com/dracarys18/scylla-rust-driver.git)",
+ "scylla 0.15.0 (git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1)",
  "serde",
  "serde_json",
  "strip-ansi-escapes",
@@ -272,7 +272,7 @@ dependencies = [
  "darling",
  "proc-macro2",
  "quote",
- "scylla 0.15.0 (git+https://github.com/dracarys18/scylla-rust-driver.git)",
+ "scylla 0.15.0 (git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1)",
  "syn",
 ]
 
@@ -297,7 +297,7 @@ dependencies = [
  "darling",
  "proc-macro2",
  "quote",
- "scylla 0.15.0 (git+https://github.com/dracarys18/scylla-rust-driver.git)",
+ "scylla 0.15.0 (git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1)",
  "serde",
  "serde_json",
  "strum",
@@ -1059,7 +1059,7 @@ dependencies = [
 [[package]]
 name = "scylla"
 version = "0.15.0"
-source = "git+https://github.com/dracarys18/scylla-rust-driver.git#8593b28816a645ceff000c6c369d3654585c6ac1"
+source = "git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1#8593b28816a645ceff000c6c369d3654585c6ac1"
 dependencies = [
  "arc-swap",
  "async-trait",
@@ -1076,8 +1076,8 @@ dependencies = [
  "openssl",
  "rand",
  "rand_pcg",
- "scylla-cql 0.4.0 (git+https://github.com/dracarys18/scylla-rust-driver.git)",
- "scylla-macros 0.7.0 (git+https://github.com/dracarys18/scylla-rust-driver.git)",
+ "scylla-cql 0.4.0 (git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1)",
+ "scylla-macros 0.7.0 (git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1)",
  "smallvec",
  "snap",
  "socket2",
@@ -1116,13 +1116,13 @@ dependencies = [
 [[package]]
 name = "scylla-cql"
 version = "0.4.0"
-source = "git+https://github.com/dracarys18/scylla-rust-driver.git#8593b28816a645ceff000c6c369d3654585c6ac1"
+source = "git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1#8593b28816a645ceff000c6c369d3654585c6ac1"
 dependencies = [
  "async-trait",
  "byteorder",
  "bytes",
  "lz4_flex",
- "scylla-macros 0.7.0 (git+https://github.com/dracarys18/scylla-rust-driver.git)",
+ "scylla-macros 0.7.0 (git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1)",
  "snap",
  "stable_deref_trait",
  "thiserror",
@@ -1146,7 +1146,7 @@ dependencies = [
 [[package]]
 name = "scylla-macros"
 version = "0.7.0"
-source = "git+https://github.com/dracarys18/scylla-rust-driver.git#8593b28816a645ceff000c6c369d3654585c6ac1"
+source = "git+https://github.com/dracarys18/scylla-rust-driver.git?rev=8593b28816a645ceff000c6c369d3654585c6ac1#8593b28816a645ceff000c6c369d3654585c6ac1"
 dependencies = [
  "darling",
  "proc-macro2",
