@@ -15,7 +15,7 @@ charybdis_macros = { version = "0.7.9", path = "../charybdis-macros" }
 chrono = { version = "0.4.38", features = ["serde"] }
 futures = "0.3.30"
 num-bigint = "0.4.4"
-scylla = { version = "0.14.0", features = ["full-serialization"] }
+scylla = { git = "https://github.com/dracarys18/scylla-rust-driver.git", ref = "47c89d514722dfeae506b5fc2f67e4c4ba7f69e9", features = ["ssl"] }
 uuid = { version = "1.8.0", features = ["v1", "v4", "serde"] }
 serde_json = "1.0.116"
 serde = { version = "1.0.200", features = ["derive"] }

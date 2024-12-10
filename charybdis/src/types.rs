@@ -56,7 +56,7 @@ impl SerializeValue for Counter {
         if typ != &ColumnType::Counter {
             return Err(SerializationError::new(BuiltinTypeCheckError {
                 rust_name: std::any::type_name::<Counter>(),
-                got: typ.clone(),
+                got: typ.clone().into_owned(),
                 kind: BuiltinTypeCheckErrorKind::MismatchedType {
                     expected: &[ColumnType::Counter],
                 },
@@ -351,7 +351,7 @@ impl SerializeValue for Timeuuid {
         if typ != &ColumnType::Timeuuid {
             return Err(SerializationError::new(BuiltinTypeCheckError {
                 rust_name: std::any::type_name::<Timeuuid>(),
-                got: typ.clone(),
+                got: typ.clone().into_owned(),
                 kind: BuiltinTypeCheckErrorKind::MismatchedType {
                     expected: &[ColumnType::Timeuuid],
                 },

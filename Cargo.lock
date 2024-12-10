@@ -1073,8 +1073,7 @@ dependencies = [
 [[package]]
 name = "scylla"
 version = "0.14.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8139623d3fb0c8205b15e84fa587f3aa0ba61f876c19a9157b688f7c1763a7c5"
+source = "git+https://github.com/dracarys18/scylla-rust-driver.git#47c89d514722dfeae506b5fc2f67e4c4ba7f69e9"
 dependencies = [
  "arc-swap",
  "async-trait",
@@ -1118,7 +1117,7 @@ dependencies = [
  "num-bigint 0.3.3",
  "num-bigint 0.4.4",
  "scylla-macros 0.5.1",
- "secrecy 0.7.0",
+ "secrecy",
  "snap",
  "thiserror",
  "time",
@@ -1129,22 +1128,15 @@ dependencies = [
 [[package]]
 name = "scylla-cql"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "de7020bcd1f6fdbeaed356cd426bf294b2071bd7120d48d2e8e319295e2acdcd"
+source = "git+https://github.com/dracarys18/scylla-rust-driver.git#47c89d514722dfeae506b5fc2f67e4c4ba7f69e9"
 dependencies = [
  "async-trait",
- "bigdecimal",
  "byteorder",
  "bytes",
- "chrono",
  "lz4_flex",
- "num-bigint 0.3.3",
- "num-bigint 0.4.4",
  "scylla-macros 0.6.0",
- "secrecy 0.8.0",
  "snap",
  "thiserror",
- "time",
  "tokio",
  "uuid",
 ]
@@ -1164,8 +1156,7 @@ dependencies = [
 [[package]]
 name = "scylla-macros"
 version = "0.6.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3859b6938663fc5062e3b26f3611649c9bd26fb252e85f6fdfa581e0d2ce74b6"
+source = "git+https://github.com/dracarys18/scylla-rust-driver.git#47c89d514722dfeae506b5fc2f67e4c4ba7f69e9"
 dependencies = [
  "darling",
  "proc-macro2",
@@ -1178,15 +1169,6 @@ name = "secrecy"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0673d6a6449f5e7d12a1caf424fd9363e2af3a4953023ed455e3c4beef4597c0"
-dependencies = [
- "zeroize",
-]
-
-[[package]]
-name = "secrecy"
-version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9bd1c54ea06cfd2f6b63219704de0b9b4f72dcc2b8fdef820be6cd799780e91e"
 dependencies = [
  "zeroize",
 ]
