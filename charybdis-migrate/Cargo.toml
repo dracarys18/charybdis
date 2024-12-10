@@ -10,7 +10,7 @@ categories = ["database"]
 
 [dependencies]
 charybdis_parser = { version = "0.7.9", path = "../charybdis-parser" }
-scylla = { git = "https://github.com/dracarys18/scylla-rust-driver.git", ref = "47c89d514722dfeae506b5fc2f67e4c4ba7f69e9", features = ["ssl"] }
+scylla = { git = "https://github.com/dracarys18/scylla-rust-driver.git", ref = "8593b28816a645ceff000c6c369d3654585c6ac1", features = ["ssl"] }
 tokio = { version = "1.38.0", features = ["full"] }
 serde_json = "1.0.120"
 serde = { version = "1.0.204", features = ["derive"] }

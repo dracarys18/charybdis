@@ -20,4 +20,4 @@ darling = "0.20.8"
 
 [dev-dependencies]
 charybdis = "0.7.2"
-scylla = { git = "https://github.com/dracarys18/scylla-rust-driver.git", ref = "47c89d514722dfeae506b5fc2f67e4c4ba7f69e9", features = ["ssl"] }
+scylla = { git = "https://github.com/dracarys18/scylla-rust-driver.git", ref = "8593b28816a645ceff000c6c369d3654585c6ac1", features = ["ssl"] }

@@ -12,7 +12,7 @@ categories = ["database"]
 proc-macro2 = "1.0.81"
 syn = { version = "2.0.60", features = ["full"] }
 quote = "1.0.36"
-scylla = { git = "https://github.com/dracarys18/scylla-rust-driver.git", ref = "47c89d514722dfeae506b5fc2f67e4c4ba7f69e9", features = ["ssl"] }
+scylla = { git = "https://github.com/dracarys18/scylla-rust-driver.git", ref = "8593b28816a645ceff000c6c369d3654585c6ac1", features = ["ssl"] }
 serde = { version = "1.0.200", features = ["derive"] }
 serde_json = "1.0.116"
 colored = { version = "2.1.0", features = [] }
